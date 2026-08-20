@@ -1,0 +1,22 @@
+{{<html}}
+{{$main}}
+
+<div class="page privacy-page">
+    <h1>{{page.title}}</h1>
+
+    <div class="policy-meta">
+        <p><strong>{{page.effective_date_label}}:</strong> {{page.effective_date}}</p>
+        <p><strong>{{page.last_updated_label}}:</strong> {{page.last_updated}}</p>
+    </div>
+
+    <section class="controller-block">
+        <h2>{{page.controller_title}}</h2>
+        <p><strong>{{page.name_label}}:</strong> {{site.contact.name}}</p>
+        <p><strong>{{page.email_label}}:</strong> <a href="mailto:{{site.contact.email}}">{{site.contact.email}}</a></p>
+    </section>
+
+    {{& page.contents.html}}
+</div>
+
+{{/main}}
+{{/html}}
