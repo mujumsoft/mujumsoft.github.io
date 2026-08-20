@@ -1,0 +1,14 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>http://localhost:3000/vizallas/en/</loc>
+            <lastmod>2026-08-20</lastmod>
+        </url>
+        <url>
+            <loc>http://localhost:3000/vizallas/hu/</loc>
+            <lastmod>2026-08-20</lastmod>
+        </url>
+        <url>
+            <loc>http://localhost:3000/</loc>
+            <lastmod>2026-08-20</lastmod>
+        </url>
+</urlset>
