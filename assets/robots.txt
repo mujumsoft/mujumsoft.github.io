@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mujumsoft.github.io/sitemap.xml
