@@ -15,6 +15,7 @@ dataTypes:
 contentTypes: 
     include:
         - page
+        - privacy
 
 iterators:
 
@@ -26,6 +27,8 @@ engine:
         contentTypes: 
             page:
                 view: "pages.default"
+            privacy:
+                view: "pages.privacy"
 output:
     path: "{{slug}}"
     file: index

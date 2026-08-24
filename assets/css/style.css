@@ -156,12 +156,22 @@ footer p { margin: 0; }
 }
 
 .language-option:hover,
-.language-option.is-active {
+body.lang-en .language-option[lang="en"],
+body.lang-zh .language-option[lang="zh"],
+body.lang-hi .language-option[lang="hi"],
+body.lang-es .language-option[lang="es"],
+body.lang-fr .language-option[lang="fr"],
+body.lang-hu .language-option[lang="hu"] {
     background: rgba(102, 168, 255, 0.16);
     color: #fff;
 }
 
-.language-option.is-active {
+body.lang-en .language-option[lang="en"],
+body.lang-zh .language-option[lang="zh"],
+body.lang-hi .language-option[lang="hi"],
+body.lang-es .language-option[lang="es"],
+body.lang-fr .language-option[lang="fr"],
+body.lang-hu .language-option[lang="hu"] {
     outline: 1px solid rgba(102, 168, 255, 0.7);
 }
 

@@ -8,5 +8,11 @@
             <lastmod>{{lastUpdate.formats.sitemap}}</lastmod>
         </url>
         {{/context.pages}}
+        {{#context.privacy}}
+        <url>
+            <loc>{{permalink}}</loc>
+            <lastmod>{{lastUpdate.formats.sitemap}}</lastmod>
+        </url>
+        {{/context.privacy}}
     {{/empty(urls)}}
 </urlset>

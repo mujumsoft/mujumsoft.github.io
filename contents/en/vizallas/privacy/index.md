@@ -1,12 +1,14 @@
 ---
 title: "Vízállás – Privacy Policy"
 description: "Privacy Policy for the Vízállás application."
+type: privacy
 language: "en-US"
-hreflang_code: "en"
-is_privacy: true
-language_switch_label: "Magyar"
-language_switch_url: "/hu/vizallas/privacy/"
-language_switch_code: "hu"
+alternate_languages:
+    - code: "en"
+      url: "/en/vizallas/privacy/"
+    - code: "hu"
+      url: "/hu/vizallas/privacy/"
+x_default_url: "/en/vizallas/privacy/"
 footer_generated_before: "This site was generated using"
 footer_generated_between: "&"
 footer_generated_after: "."

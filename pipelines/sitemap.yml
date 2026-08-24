@@ -17,6 +17,12 @@ queries:
         orderBy:
             - key: lastUpdate
               direction: desc
+    privacy:
+        contentType: privacy
+        scope: list
+        orderBy:
+            - key: lastUpdate
+              direction: desc
 
 engine: 
     id: mustache

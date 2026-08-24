@@ -1,12 +1,14 @@
 ---
 title: "Vízállás – Adatvédelmi tájékoztató"
 description: "A Vízállás alkalmazás adatvédelmi tájékoztatója."
+type: privacy
 language: "hu-HU"
-hreflang_code: "hu"
-is_privacy: true
-language_switch_label: "English"
-language_switch_url: "/en/vizallas/privacy/"
-language_switch_code: "en"
+alternate_languages:
+    - code: "en"
+      url: "/en/vizallas/privacy/"
+    - code: "hu"
+      url: "/hu/vizallas/privacy/"
+x_default_url: "/en/vizallas/privacy/"
 footer_generated_before: "Ez az oldal"
 footer_generated_between: "és"
 footer_generated_after: " használatával készült."

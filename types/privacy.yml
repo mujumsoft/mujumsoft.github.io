@@ -1,0 +1,42 @@
+id: privacy
+
+properties:
+    title:
+        type: string
+        required: true
+
+    description:
+        type: string
+        required: true
+
+    language:
+        type: string
+        required: true
+
+    effective_date:
+        type: string
+        required: true
+
+    last_updated:
+        type: string
+        required: true
+
+    effective_date_label:
+        type: string
+        required: true
+
+    last_updated_label:
+        type: string
+        required: true
+
+    controller_title:
+        type: string
+        required: true
+
+    name_label:
+        type: string
+        required: true
+
+    email_label:
+        type: string
+        required: true

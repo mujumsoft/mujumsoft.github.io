@@ -4,12 +4,9 @@
 <div class="page">
     <div id="home">
         <nav class="language-switcher" aria-label="Choose language">
-            <a class="language-option{{#page.is_english}} is-active{{/page.is_english}}" href="{{baseUrl}}/en/" lang="en" aria-label="English" title="English"{{#page.is_english}} aria-current="page"{{/page.is_english}}><span class="language-flag" aria-hidden="true">🇬🇧</span></a>
-            <a class="language-option{{#page.is_chinese}} is-active{{/page.is_chinese}}" href="{{baseUrl}}/zh/" lang="zh" aria-label="中文" title="中文"{{#page.is_chinese}} aria-current="page"{{/page.is_chinese}}><span class="language-flag" aria-hidden="true">🇨🇳</span></a>
-            <a class="language-option{{#page.is_hindi}} is-active{{/page.is_hindi}}" href="{{baseUrl}}/hi/" lang="hi" aria-label="हिन्दी" title="हिन्दी"{{#page.is_hindi}} aria-current="page"{{/page.is_hindi}}><span class="language-flag" aria-hidden="true">🇮🇳</span></a>
-            <a class="language-option{{#page.is_spanish}} is-active{{/page.is_spanish}}" href="{{baseUrl}}/es/" lang="es" aria-label="Español" title="Español"{{#page.is_spanish}} aria-current="page"{{/page.is_spanish}}><span class="language-flag" aria-hidden="true">🇪🇸</span></a>
-            <a class="language-option{{#page.is_french}} is-active{{/page.is_french}}" href="{{baseUrl}}/fr/" lang="fr" aria-label="Français" title="Français"{{#page.is_french}} aria-current="page"{{/page.is_french}}><span class="language-flag" aria-hidden="true">🇫🇷</span></a>
-            <a class="language-option{{#page.is_hungarian}} is-active{{/page.is_hungarian}}" href="{{baseUrl}}/hu/" lang="hu" aria-label="Magyar" title="Magyar"{{#page.is_hungarian}} aria-current="page"{{/page.is_hungarian}}><span class="language-flag" aria-hidden="true">🇭🇺</span></a>
+            {{#site.language_options}}
+            <a class="language-option" href="{{baseUrl}}{{url}}" lang="{{code}}" aria-label="{{label}}" title="{{label}}"><span class="language-flag" aria-hidden="true">{{flag}}</span></a>
+            {{/site.language_options}}
         </nav>
         <div class="home-hero">
             <p class="home-logo">
