@@ -91,6 +91,10 @@ Az alkalmazás közvetlenül nem kér nevet, telefonszámot vagy e-mail-címet.
 
 További információ a [Firebase adatvédelmi és biztonsági tájékoztatójában](https://firebase.google.com/support/privacy) található.
 
+A Google, a Firebase és az alkalmazás által használt egyéb harmadik fél szolgáltatói az adott
+szolgáltatásaik tekintetében a jelen tájékoztatóban leírtakkal azonos vagy azzal egyenértékű
+adatvédelmet biztosítanak.
+
 ## 8. IDFA és App Tracking Transparency
 
 Az alkalmazás jelenleg nem kér App Tracking Transparency (ATT) engedélyt, és nem kér hozzáférést az Apple IDFA reklámazonosítóhoz.
