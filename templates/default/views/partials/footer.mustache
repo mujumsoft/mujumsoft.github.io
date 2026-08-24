@@ -1,4 +1,4 @@
 <footer>
-    <p>This site was generated using <a href="https://www.swift.org/" target="_blank">Swift</a> & <a href="https://github.com/toucansites/toucan" target="_blank">Toucan</a>.</p>
+    <p>{{#page.footer_generated_before}}{{page.footer_generated_before}}{{/page.footer_generated_before}}{{^page.footer_generated_before}}{{site.footer_generated_before}}{{/page.footer_generated_before}} <a href="https://www.swift.org/" target="_blank" rel="noopener">Swift</a> {{#page.footer_generated_between}}{{page.footer_generated_between}}{{/page.footer_generated_between}}{{^page.footer_generated_between}}{{site.footer_generated_between}}{{/page.footer_generated_between}} <a href="https://github.com/toucansites/toucan" target="_blank" rel="noopener">Toucan</a>{{#page.footer_generated_after}}{{page.footer_generated_after}}{{/page.footer_generated_after}}{{^page.footer_generated_after}}{{site.footer_generated_after}}{{/page.footer_generated_after}}</p>
     <p class="small">Mujumsoft &copy; {{generation.formats.year}}</p>
 </footer>

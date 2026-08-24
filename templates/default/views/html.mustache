@@ -3,12 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="{{page.theme_color}}">
+    <meta name="theme-color" content="{{#page.theme_color}}{{page.theme_color}}{{/page.theme_color}}{{^page.theme_color}}{{site.theme_color}}{{/page.theme_color}}">
     
     <title>{{page.title}} - {{site.name}}</title>
     <meta name="description" content="{{page.description}}">
     <meta name="author" content="{{site.contact.name}}">
     <link rel="canonical" href="{{page.permalink}}">
+    {{#page.hreflang_code}}<link rel="alternate" hreflang="{{page.hreflang_code}}" href="{{page.permalink}}">{{/page.hreflang_code}}
+    {{#page.is_home}}
+    <link rel="alternate" hreflang="en" href="{{baseUrl}}/en/">
+    <link rel="alternate" hreflang="zh" href="{{baseUrl}}/zh/">
+    <link rel="alternate" hreflang="hi" href="{{baseUrl}}/hi/">
+    <link rel="alternate" hreflang="es" href="{{baseUrl}}/es/">
+    <link rel="alternate" hreflang="fr" href="{{baseUrl}}/fr/">
+    <link rel="alternate" hreflang="hu" href="{{baseUrl}}/hu/">
+    <link rel="alternate" hreflang="x-default" href="{{baseUrl}}/en/">
+    {{/page.is_home}}
+    {{#page.is_privacy}}
+    <link rel="alternate" hreflang="en" href="{{baseUrl}}/en/vizallas/privacy/">
+    <link rel="alternate" hreflang="hu" href="{{baseUrl}}/hu/vizallas/privacy/">
+    <link rel="alternate" hreflang="x-default" href="{{baseUrl}}/en/vizallas/privacy/">
+    {{/page.is_privacy}}
     <link rel="icon" href="{{baseUrl}}{{site.logo}}" type="image/png">
     
     <meta property="og:url" content="{{page.permalink}}">
