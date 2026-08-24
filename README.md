@@ -1,4 +1,3 @@
-# Minimal Template Demo
+# Mujumsoft website
 
-A working example with materials to learn about the template.
-Visit the [repository](https://github.com/toucansites/minimal-template) of the template for more information.
+The Mujumsoft website is a multilingual static site generated with [Toucan](https://github.com/toucansites/toucan) and Mustache templates.
