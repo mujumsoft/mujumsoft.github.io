@@ -14,7 +14,7 @@ footer_generated_between: "&"
 footer_generated_after: "."
 theme_color: "#f4f6f5"
 effective_date: "August 18, 2026"
-last_updated: "August 18, 2026"
+last_updated: "September 20, 2026"
 effective_date_label: "Effective date"
 last_updated_label: "Last updated"
 controller_title: "Data controller"
@@ -45,7 +45,8 @@ This information is not sent to my own server. Local data can be removed by dele
 
 The app may retrieve data from external services, including:
 
-- hydroinfo.hu for water-level data;
+- the official web service of the Országos Vízügyi Főigazgatóság (OVF) for
+  water-level data;
 - Google News for news content.
 
 Some app features may open external websites. Those services operate under their own privacy policies and are responsible for their own data processing.

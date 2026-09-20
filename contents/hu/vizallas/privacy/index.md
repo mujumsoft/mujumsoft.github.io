@@ -14,7 +14,7 @@ footer_generated_between: "és"
 footer_generated_after: " használatával készült."
 theme_color: "#f4f6f5"
 effective_date: "2026. augusztus 18."
-last_updated: "2026. augusztus 18."
+last_updated: "2026. szeptember 20."
 effective_date_label: "Hatálybalépés"
 last_updated_label: "Utolsó frissítés"
 controller_title: "Az adatkezelő"
@@ -45,7 +45,8 @@ Ezeket az adatokat nem továbbítjuk saját szerverre. A helyi adatok az alkalma
 
 Az alkalmazás külső szolgáltatásokból tölthet adatokat, többek között:
 
-- a vízállásadatokhoz a hydroinfo.hu szolgáltatásából;
+- a vízállásadatokhoz az Országos Vízügyi Főigazgatóság (OVF) hivatalos
+  webszervízéből;
 - a hírekhez a Google News szolgáltatásából.
 
 Az alkalmazás egyes funkciói külső weboldalakat nyithatnak meg. A külső szolgáltatók saját adatvédelmi szabályzataik szerint kezelik az adatokat.
